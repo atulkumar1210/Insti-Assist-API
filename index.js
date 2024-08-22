@@ -16,7 +16,7 @@ app.use(cors());
 cors({ credentials: true, origin: true });
 
 app.get('/', (req, res) => {
-    res.json({about:"It is the home page"});
+    res.redirect('https://github.com/atulkumar1210/Insti-Assist-API');
 })
 
 app.use('/api', router);
